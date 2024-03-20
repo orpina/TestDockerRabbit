@@ -1,0 +1,6 @@
+@TestDockerRabbit.FirstAPI_HostAddress = http://localhost:5142
+
+GET {{TestDockerRabbit.FirstAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
